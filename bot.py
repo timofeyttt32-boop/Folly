@@ -5,7 +5,7 @@ import aiohttp
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+TOKEN = "8866912299:AAEmJdhDuFB_8l6mB1MXMiHi4eGfSthpdQg"
 
 PLATFORMS = {
     "VK": "https://vk.com/{}",
